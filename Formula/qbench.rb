@@ -1,22 +1,22 @@
 class Qbench < Formula
   desc "SQL queries benchmark tool"
   homepage "https://github.com/sibprogrammer/qbench"
-  version "0.0.1"
+  version "0.0.2"
 
   on_macos do
     on_arm do
-      url "https://github.com/sibprogrammer/qbench/releases/download/v0.0.1/qbench_0.0.1_darwin_arm64.tar.gz"
-      sha256 "15f8c52c8ebe7151080b1cf928239667dbe08ae0cab35c49d7df301ced805cd0"
+      url "https://github.com/sibprogrammer/qbench/releases/download/v0.0.2/qbench_0.0.2_darwin_arm64.tar.gz"
+      sha256 "49ca0162de21ad6ff032c3c9f9de7a464cc5454ea917d3628ea004e22df752f2"
     end
     on_intel do
-      url "https://github.com/sibprogrammer/qbench/releases/download/v0.0.1/qbench_0.0.1_darwin_amd64.tar.gz"
-      sha256 "047fc0bf095c48d8e2a6f1ca6f8427c2550acae228c0923b37831cdaff6509b9"
+      url "https://github.com/sibprogrammer/qbench/releases/download/v0.0.2/qbench_0.0.2_darwin_amd64.tar.gz"
+      sha256 "032be7ae84101dcb21e9f6144406e002981197f6c71b2d6667b996dc712d6391"
     end
   end
 
   on_linux do
-    url "https://github.com/sibprogrammer/qbench/releases/download/v0.0.1/qbench_0.0.1_linux_amd64.tar.gz"
-    sha256 "9a62d4188164e51abb56c052d56d6e0380684667ea9d2cdc5b85e3f92b8707f5"
+    url "https://github.com/sibprogrammer/qbench/releases/download/v0.0.2/qbench_0.0.2_linux_amd64.tar.gz"
+    sha256 "0523725ac5f867291d64de716cfd14f96a0bcdafdb091bf8549b76f71bffa8f7"
   end
 
   def install
